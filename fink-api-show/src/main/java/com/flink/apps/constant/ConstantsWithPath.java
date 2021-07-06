@@ -20,6 +20,7 @@ public class ConstantsWithPath {
      */
     public static final String HDFS_PATH = "hdfs://h7:9820/wordcount/output_";
     public static final String FILE_PATH = "filePath";
+    public static final String ROOT_RESULT_PATH = "/root/result1.txt";
 
     /**
      * 定义私有构造方法.
