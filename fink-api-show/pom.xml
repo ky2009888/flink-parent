@@ -41,7 +41,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.flink.apps.FlinkStreamApiShow</mainClass>
+                            <mainClass>com.flink.apps.dataset.WordCountDeployV</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
