@@ -52,7 +52,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.flink.apps.dataset.WordCountWriteToHdfs</mainClass>
+                            <mainClass>com.flink.apps.datasource.DataStreamKafkaIo</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
