@@ -45,9 +45,10 @@ public class DataStreamWithWindow {
         //得到滑动窗口流
         WindowedStream<CartInfo, String, TimeWindow> windowedStream = keyedStream.window(TumblingProcessingTimeWindows.of(Time.seconds(5)));
         //进行计算
-        windowedStream.sum("count").print();
+        //windowedStream.sum("count").print();
         //得到滑动窗口流
         WindowedStream<CartInfo, String, TimeWindow> windowedStream2 =
+                //滑动窗口
                 keyedStream.window(SlidingProcessingTimeWindows.of(Time.seconds(10), Time.seconds(5)));
         //进行计算
         windowedStream2.sum("count").print();
