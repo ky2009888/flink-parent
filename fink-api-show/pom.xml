@@ -25,6 +25,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--flink state 状态默认存储到rocksdb中-->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-statebackend-rocksdb_2.12</artifactId>
+            <version>1.12.4</version>
+        </dependency>
         <!-- kafka客户端工具 -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -52,7 +58,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.flink.apps.datasource.DataStreamKafkaIo</mainClass>
+                            <mainClass>com.flink.apps.checkpoint.DataStreamCheckPointV0</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
