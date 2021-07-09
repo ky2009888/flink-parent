@@ -3,7 +3,6 @@ package com.flink.apps;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.RandomUtil;
-import cn.itcast.action.DoubleElevenBigScreem;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
