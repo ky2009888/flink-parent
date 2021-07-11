@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>fink-api-show</module>
+        <module>flink-with-spring</module>
+        <module>HotProductAnalysis</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
@@ -36,6 +38,12 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-jdbc_2.12</artifactId>
             <version>1.12.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka_2.12</artifactId>
+            <version>1.12.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -90,6 +98,17 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <version>2.5.0</version>
             <scope>test</scope>
+        </dependency>
+        <!--整合mybatis-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>3.4.3</version>
         </dependency>
     </dependencies>
     <build>
