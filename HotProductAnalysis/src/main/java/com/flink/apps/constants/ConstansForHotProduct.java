@@ -19,4 +19,13 @@ public class ConstansForHotProduct {
      * "pv".
      */
     public static final String PV = "pv";
+    /**
+     * 热门商品的数据的路径-Linux.
+     */
+    public static final String RESOURCES_USER_BEHAVIOR_CSV_LINUX = "/work/workspace-flink-learn/flink-parent/HotProductAnalysis/src/main/resources/UserBehavior.csv";
+    /**
+     * 热门商品的数据的路径-Linux.
+     */
+    public static final String RESOURCES_USER_BEHAVIOR_CSV_LINUX_1 = "/work/workspace-flink-learn/flink-parent/HotProductAnalysis/src/main/resources/UserBehavior1.csv";
+
 }
