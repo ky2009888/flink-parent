@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
- * 热门商品分析主类
+ * 实时热门商品统计主类
  *
  * @author ky2009666
  * @date 2021/7/11
