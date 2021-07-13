@@ -82,4 +82,12 @@ public class ConstantsWithStringLable {
      * output_kafka.
      */
     public static final String OUTPUT_KAFKA = "output_kafka";
+    /**
+     * 定义192.168.64.1的IP地址.
+     */
+    public static final String HOSTNAME_64_1 = "192.168.64.1";
+    /**
+     * 英文逗号.
+     */
+    public static final String COMMA = ",";
 }
