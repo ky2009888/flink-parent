@@ -82,4 +82,20 @@ public class ConstantsWithStringLable {
      * output_kafka.
      */
     public static final String OUTPUT_KAFKA = "output_kafka";
+    /**
+     * jdbc驱动名称.
+     */
+    public static final String JDBC_DRIVER_CLASS_STR = "com.mysql.jdbc.Driver";
+    /**
+     * mysql的链接字符串.
+     */
+    public static final String MYSQL_CONNECTION_STR = "jdbc:mysql://localhost:13309/flinkdb?useSSL=false";
+    /**
+     * mysql的用户名.
+     */
+    public static final String MYSQL_FLINK_DB_USERNAME = "root";
+    /**
+     * mysql的密码.
+     */
+    public static final String MYSQL_FLINK_DB_PASSWORD = "Qwer@#1234";
 }
