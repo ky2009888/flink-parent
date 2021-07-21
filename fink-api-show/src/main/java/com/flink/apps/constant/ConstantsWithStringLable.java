@@ -98,7 +98,7 @@ public class ConstantsWithStringLable {
      * mysql的密码.
      */
     public static final String MYSQL_FLINK_DB_PASSWORD = "Qwer@#1234";
-
+    /**
      * 定义192.168.64.1的IP地址.
      */
     public static final String HOSTNAME_64_1 = "192.168.64.1";
