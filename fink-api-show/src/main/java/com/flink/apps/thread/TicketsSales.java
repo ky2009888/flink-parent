@@ -13,11 +13,13 @@ public class TicketsSales {
         for (int i = 0; i < 4; i++) {
             new Thread(() -> {
                 try {
-                    tickets.sales();
+                    while (Boolean.TRUE){
+                        tickets.sales();
+                    }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-            }).setName("售票员" + i);
+            }, "售票员" + i).start();
         }
     }
 
@@ -33,10 +35,11 @@ public class TicketsSales {
         public synchronized void sales() throws InterruptedException {
             if (ticketsNum <= 0) {
                 log.info("当前票已售完");
+                Thread.currentThread().interrupt();
             } else {
-                log.info("当前售票的编号:" + ticketsNum + (ticketsNum--) + Thread.currentThread().getName());
+                log.info("当前剩余票数:"+ (ticketsNum--));
             }
-            Thread.sleep(1000);
+            Thread.sleep(200);
         }
     }
 }

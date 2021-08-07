@@ -106,4 +106,11 @@ public class ConstantsWithStringLable {
      * 英文逗号.
      */
     public static final String COMMA = ",";
+    /**
+     * 定义字符串数组.
+     */
+    public static final String[] WORD_COUNT_CONTENT_STR = {"Apache Flink is a framework and distributed",
+            "processing engine for stateful computations over",
+            "unbounded and bounded data", " Flink has been designed to run in all common cluster environments",
+            "perform computations at in-memory speed and at any"};
 }
