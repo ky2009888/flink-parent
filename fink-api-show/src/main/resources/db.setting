@@ -1,6 +1,6 @@
 ## db.setting文件
 
-url = jdbc:mysql://h8:13306/coin-exchange
+url = jdbc:mysql://localhost:13309/coin-exchange?useSSL=false
 user = root
 pass = Qwer@#1234
 

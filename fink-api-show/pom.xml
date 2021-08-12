@@ -58,7 +58,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.flink.apps.checkpoint.DataStreamCheckPointV0</mainClass>
+                            <mainClass>com.flink.apps.datasource.WordCountWriteToHdfsV2</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

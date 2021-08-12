@@ -26,6 +26,8 @@ public class ConstantsWithPath {
      * windows环境下面checkpoint的保存路径.
      */
     public static final String WINDOW_CHECKPOINT_FILE_URI = "file:///d:/ckp";
+    public static final String HELLO_PATH_ZIP = "F:\\workspace-flink-2021\\flink-parent\\fink-api-show\\src\\main\\resources\\hello.zip";
+    public static final String NUM_TXT_PATH = "F:\\workspace-flink-2021\\flink-parent\\fink-api-show\\src\\main\\resources\\num.txt";
 
     /**
      * 定义私有构造方法.

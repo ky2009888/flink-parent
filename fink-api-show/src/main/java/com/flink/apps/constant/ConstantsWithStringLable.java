@@ -31,6 +31,10 @@ public class ConstantsWithStringLable {
      */
     public static final String H7_SERVER = "h7";
     /**
+     * h7 server.
+     */
+    public static final String H7_SERVER_ADDR = "192.168.64.7";
+    /**
      * h7 server port.
      */
     public static final Integer H7_SERVER_PORT = 9999;
