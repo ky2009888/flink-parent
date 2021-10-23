@@ -11,6 +11,7 @@
         <module>fink-api-show</module>
         <module>flink-with-spring</module>
         <module>HotProductAnalysis</module>
+        <module>flink-cdc</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
